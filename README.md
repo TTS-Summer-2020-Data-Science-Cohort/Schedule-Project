@@ -1,6 +1,6 @@
 # This is a small project to either:
-A: derive some sort of story or value from these 77 weeks / 17.7 months of hotel schedule data
-B: use scikit learn or tensor flow to create new schedules based on past input which managemnt used (daily occ, arrivals, departures)
+1. derive some sort of story or value from these 77 weeks / 17.7 months of hotel schedule data
+2. use scikit learn or tensor flow to create new schedules based on past input which managemnt used (daily occ, arrivals, departures)
 
 # INTRODUCTION AND PURPOSE:
 We have finished the Python content of our class and we should all be familiar with Pandas, Numpy, and Dataframes at this point. I have been reading a "Build a Career in Data Science" by Emily Robinson and Jacqueline Nolis. This book recommends building a portfolio of data science work in order to prove your worth to potential employers. I think working as a team and showing we can successfully use github to complete and collaborate on these projects will further show our worth and grow our strengths by being able to think about different ways to accomplish our goals. We can all equally claim to have worked on these projects together, but that being said, my end goal would be to have each one of us be able to present and explain this code to any prospective employer. So if there is a part of my code you don't understand, please reach out and I'd be more than happy to explain it. 
@@ -21,5 +21,5 @@ https://www.youtube.com/watch?v=2BusGJyn77E
 # POTENTIAL CHALLENGES AND ISSUES:
 There are several employees who worked different shifts than their regular jobs on ocassion. One of the desk agents would work as a guest experience coordinator 2 days a week and this will not make sense with the given input. The least senior bellman would always work 2 nights a week as an overnight bellman. Some of the desk agents would pick up shifts as PBX (phone operators) from time to time. Ideally, I would not like our ML model to pick up some weird pattern based on these strange cases. Another issue is that the phone operators were scheduled based on another factor of the occupancy of another nearby hotel which they also answered calls for, so they might need an additional input.
 
-#Thoughts on beginning this project
+# Thoughts on beginning this project
 This dataset is very flawed with management bias and with outlier employees who worked in other depeartments which will not make sense in ML and may produce incorrect results. If anyone has a better set of data to work with, I would be excited to hear about alternative project ideas that we could work together on if y'all think one is too flawed. It's all I currently have and thought of off the top of my head, however, if someone has a better idea that is more likely to result in a working project that will impress prospective employees, let's work on that instead.
